@@ -6,14 +6,12 @@ import java.util.Map;
 
 public class ExcelUtility {
 
-	private ExcelUtility()
+	private ExcelUtility() {
+
+	}
+
+	public static List<Map<String, String>> testDetails(String sheetName)
 	{
 		
 	}
-	
-	
-	/*
-	 * public static List<Map<String, String>> testDetails(String sheetName) { try {
-	 * FileInputStream fis=new FileInputStream(null); } }
-	 */
 }

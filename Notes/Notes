@@ -30,4 +30,21 @@ git add .
 
 The . means "all files in the current directory" — this will add all modified, newly created, or deleted files.
 
+Step 3: Commit Your Changes
+After staging the files, you need to commit them. A commit in Git represents a snapshot of your files at that point in time.
+
+To commit your staged files, use the following command:
+
+git commit -m "Your commit message"
+
+In your Git Bash (still in your project directory), run the following command to link your local repository to the remote GitHub repository:
+
+git remote add origin https://github.com/your-username/your-repository-name.git
+
+git checkout -b UAT
+
+git push -u origin UAT
+
+git pull origin UAT
+
 
