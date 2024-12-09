@@ -1,0 +1,33 @@
+mvn -v
+Apache Maven 3.9.6 (bc0240f3c744dd6b6ec2920b3cd08dcc295161ae)
+Maven home: C:\Program Files\maven\apache-maven-3.9.6
+Java version: 17.0.11, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk-17
+Default locale: en_IN, platform encoding: Cp1252
+OS name: "windows 11", version: "10.0", arch: "amd64", family: "windows"
+
+mvn clean test
+
+sqlplus system/password@//localhost:1521/XE
+
+mvn test -Dusername=myUsername -Dpassword=myPassword
+mvn test -Dusername=admin -DemailId=secret123@gmail.com
+
+cd C:\Users\Nikshepa\eclipse-workspace\SeleniumTestNgProject4thDec
+
+mvn clean test -Dusername=user1 -DemailId=user1@example.com
+
+How to push code to git and git hub:
+
+Step 1: Initialize a Git Repository
+This command creates a .git folder in your project directory, which will be used by Git to track changes in your project. 
+
+git init
+
+Step 2: Add Files to the Staging Area
+To stage all the files in your project (i.e., to tell Git which files to track and commit), use the following command:
+
+git add .
+
+The . means "all files in the current directory" — this will add all modified, newly created, or deleted files.
+
+
