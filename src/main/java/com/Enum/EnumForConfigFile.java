@@ -2,8 +2,8 @@ package com.Enum;
 
 public enum EnumForConfigFile {
 
-	practiseWebsite1,
-	browserName,
+	practisewebsite1,
+	browsername,
 	dbusername,
 	dbpassword,
 	dburl,

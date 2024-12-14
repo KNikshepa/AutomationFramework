@@ -21,7 +21,7 @@ public class TestCase1 extends BaseTest{
 	public void validateHomePage() throws InterruptedException
 	{
 		WebDriver driver=DriverManager.getInstance().getDriver();
-		driver.get(ReadPropertyFile.getValue(EnumForConfigFile.practiseWebsite1));
+		driver.get(ReadPropertyFile.getValue(EnumForConfigFile.practisewebsite1));
 		HomePage homePage=new HomePage(driver);
 		String expectedTitle="Automation Exercise";
 		String actualTitle=homePage.getHomePageTitle();
@@ -44,7 +44,7 @@ public class TestCase1 extends BaseTest{
 	public void dbdataValidation() throws SQLException, InterruptedException
 	{
 		WebDriver driver=DriverManager.getInstance().getDriver();
-		driver.get(ReadPropertyFile.getValue(EnumForConfigFile.practiseWebsite1));
+		driver.get(ReadPropertyFile.getValue(EnumForConfigFile.practisewebsite1));
 		HomePage homePage=new HomePage(driver);
 		String expectedTitle="Automation Exercise";
 		String actualTitle=homePage.getHomePageTitle();
@@ -69,7 +69,7 @@ public class TestCase1 extends BaseTest{
 	public void mvnDataParameterCheck() throws InterruptedException
 	{
 		WebDriver driver=DriverManager.getInstance().getDriver();
-		driver.get(ReadPropertyFile.getValue(EnumForConfigFile.practiseWebsite1));
+		driver.get(ReadPropertyFile.getValue(EnumForConfigFile.practisewebsite1));
 		HomePage homePage=new HomePage(driver);
 		String expectedTitle="Automation Exercise";
 		String actualTitle=homePage.getHomePageTitle();
@@ -86,7 +86,7 @@ public class TestCase1 extends BaseTest{
 	public void usingDataProvider() throws InterruptedException
 	{
 		WebDriver driver=DriverManager.getInstance().getDriver();
-		driver.get(ReadPropertyFile.getValue(EnumForConfigFile.practiseWebsite1));
+		driver.get(ReadPropertyFile.getValue(EnumForConfigFile.practisewebsite1));
 		HomePage homePage=new HomePage(driver);
 		String expectedTitle="Automation Exercise";
 		String actualTitle=homePage.getHomePageTitle();
