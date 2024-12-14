@@ -21,8 +21,8 @@ pipeline {
         stage('Build') {
             steps {
                 script {
-                    // Run Maven Build using the correct Maven path
-                    bat "\"${MAVEN_HOME}\\bin\\mvn\" clean install -P QAAutomationPractise"
+                    // Run Maven Build but do not include the 'test' phase to avoid running tests twice
+                    bat "\"${MAVEN_HOME}\\bin\\mvn\" clean install -P QAAutomationPractise -Dusername=${params.username} -DemailId=${params.emailId}"
                 }
             }
         }
@@ -30,7 +30,7 @@ pipeline {
         stage('Test') {
             steps {
                 script {
-                    // Pass parameters for username and emailId
+                    // Only run tests here without invoking the 'clean' or 'install' phases
                     bat "\"${MAVEN_HOME}\\bin\\mvn\" test -P QAAutomationPractise -Dusername=${params.username} -DemailId=${params.emailId} -Denvironment=${params.env} -Ddebug=${params.debug}"
                 }
             }

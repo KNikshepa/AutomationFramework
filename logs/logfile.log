@@ -1005,3 +1005,103 @@ java.lang.IllegalArgumentException: Keys to send should be a not null CharSequen
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
 2024-12-14 18:36:14.779 [pool-2-thread-1] INFO  - Sign Up Hyperlink is clicked
+2024-12-14 18:57:43.761 [pool-2-thread-1] INFO  - Title is retrieved
+2024-12-14 18:57:45.656 [pool-2-thread-1] INFO  - Sign In and Login Hyperlink is clicked
+2024-12-14 18:57:47.754 [pool-2-thread-1] ERROR - User Name unable to enter the value in the field
+java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:96) ~[selenium-remote-driver-4.27.0.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51) ~[selenium-support-4.27.0.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy24.sendKeys(Unknown Source) ~[?:?]
+	at com.ActionUtility.ActionsEngine.sendKeys_Custom(ActionsEngine.java:37) ~[classes/:?]
+	at com.Pages.SignInOrLoginPage.signUpAsNewUser(SignInOrLoginPage.java:32) ~[classes/:?]
+	at com.TestCases.TestCase1.mvnDataParameterCheck(TestCase1.java:83) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85) ~[testng-6.9.9.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639) ~[testng-6.9.9.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816) ~[testng-6.9.9.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124) ~[testng-6.9.9.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125) ~[testng-6.9.9.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108) ~[testng-6.9.9.jar:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-12-14 18:57:47.820 [pool-2-thread-1] ERROR - Email Address unable to enter the value in the field
+java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:96) ~[selenium-remote-driver-4.27.0.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51) ~[selenium-support-4.27.0.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy24.sendKeys(Unknown Source) ~[?:?]
+	at com.ActionUtility.ActionsEngine.sendKeys_Custom(ActionsEngine.java:37) ~[classes/:?]
+	at com.Pages.SignInOrLoginPage.signUpAsNewUser(SignInOrLoginPage.java:33) ~[classes/:?]
+	at com.TestCases.TestCase1.mvnDataParameterCheck(TestCase1.java:83) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85) ~[testng-6.9.9.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639) ~[testng-6.9.9.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816) ~[testng-6.9.9.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124) ~[testng-6.9.9.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125) ~[testng-6.9.9.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108) ~[testng-6.9.9.jar:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-12-14 18:57:49.991 [pool-2-thread-1] INFO  - Sign Up Hyperlink is clicked
+2024-12-14 18:58:45.732 [pool-2-thread-1] INFO  - Title is retrieved
+2024-12-14 18:58:48.039 [pool-2-thread-1] INFO  - Sign In and Login Hyperlink is clicked
+2024-12-14 18:58:50.252 [pool-2-thread-1] INFO  - User Name value has been entered in the input box
+2024-12-14 18:58:50.463 [pool-2-thread-1] INFO  - Email Address value has been entered in the input box
+2024-12-14 18:58:52.668 [pool-2-thread-1] INFO  - Sign Up Hyperlink is clicked
+2024-12-14 19:01:04.616 [pool-2-thread-1] INFO  - Title is retrieved
+2024-12-14 19:01:21.936 [pool-2-thread-1] INFO  - Sign In and Login Hyperlink is clicked
+2024-12-14 19:01:24.041 [pool-2-thread-1] ERROR - User Name unable to enter the value in the field
+java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:96) ~[selenium-remote-driver-4.27.0.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51) ~[selenium-support-4.27.0.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy24.sendKeys(Unknown Source) ~[?:?]
+	at com.ActionUtility.ActionsEngine.sendKeys_Custom(ActionsEngine.java:37) ~[classes/:?]
+	at com.Pages.SignInOrLoginPage.signUpAsNewUser(SignInOrLoginPage.java:32) ~[classes/:?]
+	at com.TestCases.TestCase1.mvnDataParameterCheck(TestCase1.java:83) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85) ~[testng-6.9.9.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639) ~[testng-6.9.9.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816) ~[testng-6.9.9.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124) ~[testng-6.9.9.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125) ~[testng-6.9.9.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108) ~[testng-6.9.9.jar:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-12-14 19:01:24.106 [pool-2-thread-1] ERROR - Email Address unable to enter the value in the field
+java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:96) ~[selenium-remote-driver-4.27.0.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51) ~[selenium-support-4.27.0.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy24.sendKeys(Unknown Source) ~[?:?]
+	at com.ActionUtility.ActionsEngine.sendKeys_Custom(ActionsEngine.java:37) ~[classes/:?]
+	at com.Pages.SignInOrLoginPage.signUpAsNewUser(SignInOrLoginPage.java:33) ~[classes/:?]
+	at com.TestCases.TestCase1.mvnDataParameterCheck(TestCase1.java:83) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85) ~[testng-6.9.9.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639) ~[testng-6.9.9.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816) ~[testng-6.9.9.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124) ~[testng-6.9.9.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125) ~[testng-6.9.9.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108) ~[testng-6.9.9.jar:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-12-14 19:01:26.325 [pool-2-thread-1] INFO  - Sign Up Hyperlink is clicked
+2024-12-14 19:02:01.934 [pool-2-thread-1] INFO  - Title is retrieved
+2024-12-14 19:02:14.911 [pool-2-thread-1] INFO  - Sign In and Login Hyperlink is clicked
+2024-12-14 19:02:17.128 [pool-2-thread-1] INFO  - User Name value has been entered in the input box
+2024-12-14 19:02:17.327 [pool-2-thread-1] INFO  - Email Address value has been entered in the input box
+2024-12-14 19:02:19.496 [pool-2-thread-1] INFO  - Sign Up Hyperlink is clicked
