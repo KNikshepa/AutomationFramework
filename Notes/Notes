@@ -52,4 +52,6 @@ C:\Users\Nikshepa\eclipse-workspace\SeleniumTestNgProject4thDec
 
 mvn clean test -P QAAutomationPractise -Dusername=admin -DemailId="secret123@gmail.com"
 
+java -jar jenkins.war
+
 

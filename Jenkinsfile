@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment {
-        MAVEN_HOME = 'C:\\Program Files\\maven\\apache-maven-3.9.6'  // Make sure this path is correct
-        PATH = "${env.MAVEN_HOME}\\bin;${env.PATH}"
+        MAVEN_HOME = 'C:\\Program Files\\maven\\apache-maven-3.9.6'
+        PATH = "C:\\Windows\\System32;${env.MAVEN_HOME}\\bin;${env.PATH}"
     }
 
     stages {
@@ -15,7 +15,6 @@ pipeline {
         stage('Build') {
             steps {
                 script {
-                    // Run Maven Build using bat for Windows
                     bat '"${MAVEN_HOME}\\bin\\mvn" clean install'
                 }
             }
@@ -23,7 +22,6 @@ pipeline {
         stage('Test') {
             steps {
                 script {
-                    // Run Maven Tests using bat for Windows
                     bat '"${MAVEN_HOME}\\bin\\mvn" test'
                 }
             }
