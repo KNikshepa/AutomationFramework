@@ -2,20 +2,20 @@
 <testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-14T09:53:07Z" name="Suite" finished-at="2024-12-14T09:53:42Z" duration-ms="35296">
+  <suite started-at="2024-12-14T13:01:14Z" name="Suite" finished-at="2024-12-14T13:01:56Z" duration-ms="42528">
     <groups>
     </groups>
-    <test started-at="2024-12-14T09:53:07Z" name="Test1" finished-at="2024-12-14T09:53:42Z" duration-ms="35296">
+    <test started-at="2024-12-14T13:01:14Z" name="Test1" finished-at="2024-12-14T13:01:56Z" duration-ms="42528">
       <class name="com.TestCases.TestCase1">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.TestCases.TestCase1@8576fa0]" started-at="2024-12-14T15:23:07Z" name="setUp" finished-at="2024-12-14T15:23:12Z" duration-ms="5584" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.TestCases.TestCase1@909217e]" started-at="2024-12-14T18:31:14Z" name="setUp" finished-at="2024-12-14T18:31:22Z" duration-ms="7633" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="mvnDataParameterCheck()[pri:0, instance:com.TestCases.TestCase1@8576fa0]" started-at="2024-12-14T15:23:12Z" name="mvnDataParameterCheck" finished-at="2024-12-14T15:23:42Z" duration-ms="29428" status="PASS">
+        <test-method signature="mvnDataParameterCheck()[pri:0, instance:com.TestCases.TestCase1@909217e]" started-at="2024-12-14T18:31:22Z" name="mvnDataParameterCheck" finished-at="2024-12-14T18:31:53Z" duration-ms="31850" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mvnDataParameterCheck -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestCases.TestCase1@8576fa0]" started-at="2024-12-14T15:23:42Z" name="tearDown" finished-at="2024-12-14T15:23:42Z" duration-ms="271" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestCases.TestCase1@909217e]" started-at="2024-12-14T18:31:53Z" name="tearDown" finished-at="2024-12-14T18:31:56Z" duration-ms="3023" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
