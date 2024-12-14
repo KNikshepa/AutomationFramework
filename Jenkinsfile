@@ -10,16 +10,16 @@ pipeline {
         stage('Build') {
             steps {
                 script {
-                    // Run Maven Build
-                    sh 'mvn clean install'
+                    // Run Maven Build using bat for Windows
+                    bat 'mvn clean install'
                 }
             }
         }
         stage('Test') {
             steps {
                 script {
-                    // Run Maven Tests
-                    sh 'mvn test'
+                    // Run Maven Tests using bat for Windows
+                    bat 'mvn test'
                 }
             }
         }
