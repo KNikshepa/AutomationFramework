@@ -22,7 +22,7 @@ public class DriverUtility {
 	{
 		if(Objects.isNull(DriverManager.getInstance().getDriver()))
 		{
-			switch(ReadPropertyFile.getValue(EnumForConfigFile.browserName))
+			switch(ReadPropertyFile.getValue(EnumForConfigFile.browsername))
 			{
 			case "edge":
 				EdgeOptions edgeOptions=new EdgeOptions();

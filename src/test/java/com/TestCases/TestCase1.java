@@ -34,7 +34,7 @@ public class TestCase1 extends BaseTest{
 	public void testCaseLink() throws InterruptedException
 	{
 		WebDriver driver=DriverManager.getInstance().getDriver();
-		driver.get(ReadPropertyFile.getValue(EnumForConfigFile.practiseWebsite1));
+		driver.get(ReadPropertyFile.getValue(EnumForConfigFile.practisewebsite1));
 		HomePage homePage=new HomePage(driver);
 		homePage.clickOnTestCase();
 		Thread.sleep(2000);
