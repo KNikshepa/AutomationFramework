@@ -26,6 +26,7 @@ public final class ReadPropertyFile {
 		property=new Properties();
 		try {
 			fis=new FileInputStream(Constant.getCONFIGFILEPATH());
+			System.out.println(Constant.getCONFIGFILEPATH());
 		}catch (FileNotFoundException e) {
 			throw new RuntimeException("File is not found in the Configuration file path & Unable to read the file");
 		}try {
