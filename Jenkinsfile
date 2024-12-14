@@ -35,5 +35,33 @@ pipeline {
                 }
             }
         }
+
+        stage('Email Notification') {
+            steps {
+                script {
+                    // Send email only if the build fails or is unstable
+                    if (currentBuild.result == 'FAILURE' || currentBuild.result == 'UNSTABLE') {
+                        emailext(
+                            subject: "Build #${currentBuild.number} - ${currentBuild.result}",
+                            body: """<h3>Build ${currentBuild.number} (${currentBuild.result})</h3>
+                                     <p><b>Details:</b><br>
+                                     Test reports and logs are attached. <br><br>
+                                     Build and test logs: ${env.BUILD_URL}</p>""",
+                            to: 'nikshepa.k@gmail.com',  // Hardcoded email address
+                            attachmentsPattern: '**/target/*.html,**/target/*.xml', // Attach reports (HTML/XML from target folder)
+                            replyTo: 'noreply@example.com', // Custom reply-to address
+                            attachBuildLog: true  // Attach the Jenkins build log
+                        )
+                    }
+                }
+            }
+        }
+    }
+
+    post {
+        always {
+            // In case you need some actions to be done after the build is complete
+            echo "Build completed with status: ${currentBuild.result}"
+        }
     }
 }
