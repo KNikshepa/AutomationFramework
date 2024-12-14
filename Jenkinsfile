@@ -21,8 +21,8 @@ pipeline {
         stage('Build') {
             steps {
                 script {
-                    // Run Maven Build but do not include the 'test' phase to avoid running tests twice
-                    bat "\"${MAVEN_HOME}\\bin\\mvn\" clean install -P QAAutomationPractise -Dusername=${params.username} -DemailId=${params.emailId}"
+                    // Run Maven Build but skip tests during this phase
+                    bat "\"${MAVEN_HOME}\\bin\\mvn\" clean install -P QAAutomationPractise -Dusername=${params.username} -DemailId=${params.emailId} -DskipTests"
                 }
             }
         }

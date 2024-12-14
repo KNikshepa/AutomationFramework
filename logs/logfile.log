@@ -1115,3 +1115,13 @@ java.lang.IllegalArgumentException: Keys to send should be a not null CharSequen
 2024-12-14 19:08:03.225 [pool-2-thread-1] INFO  - User Name value has been entered in the input box
 2024-12-14 19:08:03.441 [pool-2-thread-1] INFO  - Email Address value has been entered in the input box
 2024-12-14 19:08:06.175 [pool-2-thread-1] INFO  - Sign Up Hyperlink is clicked
+2024-12-14 19:12:21.454 [pool-2-thread-1] INFO  - Title is retrieved
+2024-12-14 19:12:37.686 [pool-2-thread-1] INFO  - Sign In and Login Hyperlink is clicked
+2024-12-14 19:12:39.916 [pool-2-thread-1] INFO  - User Name value has been entered in the input box
+2024-12-14 19:12:40.111 [pool-2-thread-1] INFO  - Email Address value has been entered in the input box
+2024-12-14 19:12:42.306 [pool-2-thread-1] INFO  - Sign Up Hyperlink is clicked
+2024-12-14 19:13:36.411 [pool-2-thread-1] INFO  - Title is retrieved
+2024-12-14 19:13:37.874 [pool-2-thread-1] INFO  - Sign In and Login Hyperlink is clicked
+2024-12-14 19:13:40.473 [pool-2-thread-1] INFO  - User Name value has been entered in the input box
+2024-12-14 19:13:40.668 [pool-2-thread-1] INFO  - Email Address value has been entered in the input box
+2024-12-14 19:13:43.417 [pool-2-thread-1] INFO  - Sign Up Hyperlink is clicked
