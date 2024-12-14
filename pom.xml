@@ -121,8 +121,10 @@
 		<profile>
 			<id>QAAutomationPractise</id>
 			<properties>
-				<username>${username}</username>
-				<emailId>${emailId}</emailId>
+				<username>${env.USERNAME}</username> <!-- Defined in environment
+				or passed via Jenkins -->
+				<emailId>${env.EMAIL_ID}</emailId> <!-- Defined in environment or
+				passed via Jenkins -->
 			</properties>
 		</profile>
 	</profiles>
