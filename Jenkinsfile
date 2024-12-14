@@ -16,7 +16,7 @@ pipeline {
             steps {
                 script {
                     // Run Maven Build using bat for Windows
-                    bat '"${MAVEN_HOME}/bin/mvn" clean install'
+                    bat "C:\\Program Files\\maven\\apache-maven-3.9.6\\bin\\mvn clean install"
                 }
             }
         }
@@ -24,7 +24,7 @@ pipeline {
             steps {
                 script {
                     // Run Maven Tests using bat for Windows
-                    bat '"${MAVEN_HOME}/bin/mvn" test'
+                    bat "C:\\Program Files\\maven\\apache-maven-3.9.6\\bin\\mvn test"
                 }
             }
         }
