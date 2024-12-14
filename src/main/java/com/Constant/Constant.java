@@ -14,7 +14,7 @@ public final class Constant {
 	
 	public static String getCONFIGFILEPATH()
 	{
-		return CONFIGFILEPATH=System.getProperty("user.dir")+"\\Configuration\\Configuration.properties";	
+		return CONFIGFILEPATH=System.getProperty("user.dir")+"\\src\\main\\resources\\Configuration.properties";	
 	}
 	
 	private static String EXCELFILEPATH;
