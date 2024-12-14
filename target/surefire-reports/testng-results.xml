@@ -1,21 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="1" passed="1" failed="0" skipped="0">
+<testng-results total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-08T17:42:30Z" name="Surefire suite" finished-at="2024-12-08T17:42:46Z" duration-ms="16096">
+  <suite started-at="2024-12-14T03:13:15Z" name="Surefire suite" finished-at="2024-12-14T03:14:15Z" duration-ms="59456">
     <groups>
     </groups>
-    <test started-at="2024-12-08T17:42:30Z" name="Surefire test" finished-at="2024-12-08T17:42:46Z" duration-ms="16096">
+    <test started-at="2024-12-14T03:13:15Z" name="Surefire test" finished-at="2024-12-14T03:14:15Z" duration-ms="59456">
       <class name="com.TestCases.TestCase1">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.TestCases.TestCase1@1176dcec]" started-at="2024-12-08T23:12:30Z" name="setUp" finished-at="2024-12-08T23:12:34Z" duration-ms="4190" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.TestCases.TestCase1@1f59a598]" started-at="2024-12-14T08:43:15Z" name="setUp" finished-at="2024-12-14T08:43:23Z" duration-ms="7504" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="mvnDataParameterCheck()[pri:0, instance:com.TestCases.TestCase1@1176dcec]" started-at="2024-12-08T23:12:34Z" name="mvnDataParameterCheck" finished-at="2024-12-08T23:12:46Z" duration-ms="11632" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.TestCases.TestCase1@1f59a598]" started-at="2024-12-14T08:43:15Z" name="setUp" finished-at="2024-12-14T08:43:23Z" duration-ms="7504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCaseLink()[pri:0, instance:com.TestCases.TestCase1@1f59a598]" started-at="2024-12-14T08:43:23Z" name="testCaseLink" finished-at="2024-12-14T08:43:50Z" duration-ms="27341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseLink -->
+        <test-method signature="mvnDataParameterCheck()[pri:0, instance:com.TestCases.TestCase1@1f59a598]" started-at="2024-12-14T08:43:23Z" name="mvnDataParameterCheck" finished-at="2024-12-14T08:43:54Z" duration-ms="31327" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mvnDataParameterCheck -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestCases.TestCase1@1176dcec]" started-at="2024-12-08T23:12:46Z" name="tearDown" finished-at="2024-12-08T23:12:46Z" duration-ms="263" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestCases.TestCase1@1f59a598]" started-at="2024-12-14T08:43:50Z" name="tearDown" finished-at="2024-12-14T08:43:50Z" duration-ms="524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.TestCases.TestCase1@1f59a598]" started-at="2024-12-14T08:43:50Z" name="setUp" finished-at="2024-12-14T08:43:52Z" duration-ms="1274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateHomePage()[pri:0, instance:com.TestCases.TestCase1@1f59a598]" started-at="2024-12-14T08:43:52Z" name="validateHomePage" finished-at="2024-12-14T08:44:14Z" duration-ms="22533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestCases.TestCase1@1f59a598]" started-at="2024-12-14T08:43:54Z" name="tearDown" finished-at="2024-12-14T08:43:54Z" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestCases.TestCase1@1f59a598]" started-at="2024-12-14T08:44:14Z" name="tearDown" finished-at="2024-12-14T08:44:15Z" duration-ms="269" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
