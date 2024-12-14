@@ -54,4 +54,6 @@ mvn clean test -P QAAutomationPractise -Dusername=admin -DemailId="secret123@gma
 
 java -jar jenkins.war
 
+http://localhost:8080
+
 
