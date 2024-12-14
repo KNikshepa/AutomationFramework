@@ -47,4 +47,9 @@ git push -u origin UAT
 
 git pull origin UAT
 
+C:\Users\Nikshepa\eclipse-workspace\SeleniumTestNgProject4thDec
+
+
+mvn clean test -P QAAutomationPractise -Dusername=admin -DemailId="secret123@gmail.com"
+
 

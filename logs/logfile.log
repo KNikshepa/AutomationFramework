@@ -443,3 +443,340 @@ java.lang.IllegalArgumentException: Keys to send should be a not null CharSequen
 2024-12-14 08:43:52.406 [pool-2-thread-1] INFO  - Sign Up Hyperlink is clicked
 2024-12-14 08:44:10.570 [pool-2-thread-2] INFO  - Title is retrieved
 2024-12-14 08:44:12.754 [pool-2-thread-2] INFO  - Sign In and Login Hyperlink is clicked
+2024-12-14 09:46:46.249 [pool-2-thread-1] INFO  - Title is retrieved
+2024-12-14 09:46:49.971 [pool-2-thread-1] INFO  - Sign In and Login Hyperlink is clicked
+2024-12-14 09:46:50.158 [pool-2-thread-2] INFO  - Test Case Link is clicked
+2024-12-14 09:46:52.118 [pool-2-thread-1] ERROR - User Name unable to enter the value in the field
+java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:96) ~[selenium-remote-driver-4.27.0.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51) ~[selenium-support-4.27.0.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy24.sendKeys(Unknown Source) ~[?:?]
+	at com.ActionUtility.ActionsEngine.sendKeys_Custom(ActionsEngine.java:37) ~[classes/:?]
+	at com.Pages.SignInOrLoginPage.signUpAsNewUser(SignInOrLoginPage.java:32) ~[classes/:?]
+	at com.TestCases.TestCase1.mvnDataParameterCheck(TestCase1.java:83) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85) ~[testng-6.9.9.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639) ~[testng-6.9.9.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816) ~[testng-6.9.9.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124) ~[testng-6.9.9.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125) ~[testng-6.9.9.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108) ~[testng-6.9.9.jar:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-12-14 09:46:52.304 [pool-2-thread-1] ERROR - Email Address unable to enter the value in the field
+java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:96) ~[selenium-remote-driver-4.27.0.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51) ~[selenium-support-4.27.0.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy24.sendKeys(Unknown Source) ~[?:?]
+	at com.ActionUtility.ActionsEngine.sendKeys_Custom(ActionsEngine.java:37) ~[classes/:?]
+	at com.Pages.SignInOrLoginPage.signUpAsNewUser(SignInOrLoginPage.java:33) ~[classes/:?]
+	at com.TestCases.TestCase1.mvnDataParameterCheck(TestCase1.java:83) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85) ~[testng-6.9.9.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639) ~[testng-6.9.9.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816) ~[testng-6.9.9.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124) ~[testng-6.9.9.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125) ~[testng-6.9.9.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108) ~[testng-6.9.9.jar:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-12-14 09:46:54.618 [pool-2-thread-1] INFO  - Sign Up Hyperlink is clicked
+2024-12-14 09:47:13.938 [pool-2-thread-2] INFO  - Title is retrieved
+2024-12-14 09:47:16.376 [pool-2-thread-2] INFO  - Sign In and Login Hyperlink is clicked
+2024-12-14 09:49:40.256 [pool-2-thread-1] INFO  - Title is retrieved
+2024-12-14 09:49:42.698 [pool-2-thread-1] INFO  - Sign In and Login Hyperlink is clicked
+2024-12-14 09:49:44.806 [pool-2-thread-1] ERROR - User Name unable to enter the value in the field
+java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:96) ~[selenium-remote-driver-4.27.0.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51) ~[selenium-support-4.27.0.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy24.sendKeys(Unknown Source) ~[?:?]
+	at com.ActionUtility.ActionsEngine.sendKeys_Custom(ActionsEngine.java:37) ~[classes/:?]
+	at com.Pages.SignInOrLoginPage.signUpAsNewUser(SignInOrLoginPage.java:32) ~[classes/:?]
+	at com.TestCases.TestCase1.mvnDataParameterCheck(TestCase1.java:83) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85) ~[testng-6.9.9.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639) ~[testng-6.9.9.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816) ~[testng-6.9.9.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124) ~[testng-6.9.9.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125) ~[testng-6.9.9.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108) ~[testng-6.9.9.jar:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-12-14 09:49:44.918 [pool-2-thread-1] ERROR - Email Address unable to enter the value in the field
+java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:96) ~[selenium-remote-driver-4.27.0.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51) ~[selenium-support-4.27.0.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy24.sendKeys(Unknown Source) ~[?:?]
+	at com.ActionUtility.ActionsEngine.sendKeys_Custom(ActionsEngine.java:37) ~[classes/:?]
+	at com.Pages.SignInOrLoginPage.signUpAsNewUser(SignInOrLoginPage.java:33) ~[classes/:?]
+	at com.TestCases.TestCase1.mvnDataParameterCheck(TestCase1.java:83) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85) ~[testng-6.9.9.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639) ~[testng-6.9.9.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816) ~[testng-6.9.9.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124) ~[testng-6.9.9.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125) ~[testng-6.9.9.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108) ~[testng-6.9.9.jar:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-12-14 09:49:47.220 [pool-2-thread-1] INFO  - Sign Up Hyperlink is clicked
+2024-12-14 09:59:23.978 [main] INFO  - Title is retrieved
+2024-12-14 09:59:25.887 [main] INFO  - Title is retrieved
+2024-12-14 10:00:25.804 [main] INFO  - Title is retrieved
+2024-12-14 10:00:39.758 [main] INFO  - Sign In and Login Hyperlink is clicked
+2024-12-14 10:01:31.963 [main] ERROR - User Name unable to enter the value in the field
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.109)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ebd33cf9ac95da2dbe3577d8f6587531, findElement {using=xpath, value=//input[@name='name']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.109, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\Nikshepa\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65375}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65375/devtoo..., se:cdpVersion: 131.0.6778.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ebd33cf9ac95da2dbe3577d8f6587531
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68) ~[selenium-support-4.27.0.jar:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38) ~[selenium-support-4.27.0.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy27.toString(Unknown Source) ~[?:?]
+	at java.base/java.lang.String.valueOf(String.java:4465) ~[?:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.toString(ExpectedConditions.java:295) ~[selenium-support-4.27.0.jar:?]
+	at java.base/java.lang.String.valueOf(String.java:4465) ~[?:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:225) ~[selenium-support-4.27.0.jar:?]
+	at com.ActionUtility.ActionsEngine.sendKeys_Custom(ActionsEngine.java:36) ~[classes/:?]
+	at com.Pages.SignInOrLoginPage.signUpAsNewUser(SignInOrLoginPage.java:32) ~[classes/:?]
+	at com.TestCases.TestCase1.mvnDataParameterCheck(TestCase1.java:83) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:794) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestRunner.run(TestRunner.java:596) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1063) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestNG.run(TestNG.java:1031) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+2024-12-14 10:02:22.536 [main] ERROR - Email Address unable to enter the value in the field
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.109)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ebd33cf9ac95da2dbe3577d8f6587531, findElement {using=xpath, value=//input[@name='email'][@data-qa='login-email']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.109, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\Nikshepa\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65375}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65375/devtoo..., se:cdpVersion: 131.0.6778.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ebd33cf9ac95da2dbe3577d8f6587531
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68) ~[selenium-support-4.27.0.jar:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38) ~[selenium-support-4.27.0.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy27.toString(Unknown Source) ~[?:?]
+	at java.base/java.lang.String.valueOf(String.java:4465) ~[?:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.toString(ExpectedConditions.java:295) ~[selenium-support-4.27.0.jar:?]
+	at java.base/java.lang.String.valueOf(String.java:4465) ~[?:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:225) ~[selenium-support-4.27.0.jar:?]
+	at com.ActionUtility.ActionsEngine.sendKeys_Custom(ActionsEngine.java:36) ~[classes/:?]
+	at com.Pages.SignInOrLoginPage.signUpAsNewUser(SignInOrLoginPage.java:33) ~[classes/:?]
+	at com.TestCases.TestCase1.mvnDataParameterCheck(TestCase1.java:83) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:794) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestRunner.run(TestRunner.java:596) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1063) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestNG.run(TestNG.java:1031) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+2024-12-14 10:02:48.212 [pool-2-thread-1] INFO  - Title is retrieved
+2024-12-14 10:02:49.298 [pool-2-thread-1] INFO  - Sign In and Login Hyperlink is clicked
+2024-12-14 10:02:51.461 [pool-2-thread-1] ERROR - User Name unable to enter the value in the field
+java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:96) ~[selenium-remote-driver-4.27.0.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51) ~[selenium-support-4.27.0.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy24.sendKeys(Unknown Source) ~[?:?]
+	at com.ActionUtility.ActionsEngine.sendKeys_Custom(ActionsEngine.java:37) ~[classes/:?]
+	at com.Pages.SignInOrLoginPage.signUpAsNewUser(SignInOrLoginPage.java:32) ~[classes/:?]
+	at com.TestCases.TestCase1.mvnDataParameterCheck(TestCase1.java:83) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85) ~[testng-6.9.9.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639) ~[testng-6.9.9.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816) ~[testng-6.9.9.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124) ~[testng-6.9.9.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125) ~[testng-6.9.9.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108) ~[testng-6.9.9.jar:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-12-14 10:02:51.630 [pool-2-thread-1] ERROR - Email Address unable to enter the value in the field
+java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:96) ~[selenium-remote-driver-4.27.0.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51) ~[selenium-support-4.27.0.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy24.sendKeys(Unknown Source) ~[?:?]
+	at com.ActionUtility.ActionsEngine.sendKeys_Custom(ActionsEngine.java:37) ~[classes/:?]
+	at com.Pages.SignInOrLoginPage.signUpAsNewUser(SignInOrLoginPage.java:33) ~[classes/:?]
+	at com.TestCases.TestCase1.mvnDataParameterCheck(TestCase1.java:83) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85) ~[testng-6.9.9.jar:?]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639) ~[testng-6.9.9.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816) ~[testng-6.9.9.jar:?]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124) ~[testng-6.9.9.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125) ~[testng-6.9.9.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108) ~[testng-6.9.9.jar:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-12-14 10:02:53.891 [pool-2-thread-1] INFO  - Sign Up Hyperlink is clicked
+2024-12-14 10:03:14.754 [main] ERROR - Sign Up Hyperlink is not clicked
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.109)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ebd33cf9ac95da2dbe3577d8f6587531, findElement {using=xpath, value=//button[text()='Signup']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.109, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\Nikshepa\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65375}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65375/devtoo..., se:cdpVersion: 131.0.6778.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ebd33cf9ac95da2dbe3577d8f6587531
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68) ~[selenium-support-4.27.0.jar:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38) ~[selenium-support-4.27.0.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy27.toString(Unknown Source) ~[?:?]
+	at java.base/java.lang.String.valueOf(String.java:4465) ~[?:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.toString(ExpectedConditions.java:295) ~[selenium-support-4.27.0.jar:?]
+	at java.base/java.lang.String.valueOf(String.java:4465) ~[?:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:225) ~[selenium-support-4.27.0.jar:?]
+	at com.ActionUtility.ActionsEngine.click_Custom(ActionsEngine.java:60) ~[classes/:?]
+	at com.Pages.SignInOrLoginPage.signUpAsNewUser(SignInOrLoginPage.java:35) ~[classes/:?]
+	at com.TestCases.TestCase1.mvnDataParameterCheck(TestCase1.java:83) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:794) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestRunner.run(TestRunner.java:596) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1063) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestNG.run(TestNG.java:1031) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+2024-12-14 10:16:31.633 [pool-2-thread-1] INFO  - Title is retrieved
+2024-12-14 10:16:33.114 [pool-2-thread-1] INFO  - Sign In and Login Hyperlink is clicked
+2024-12-14 10:16:35.483 [pool-2-thread-1] INFO  - User Name value has been entered in the input box
+2024-12-14 10:16:35.669 [pool-2-thread-1] INFO  - Email Address value has been entered in the input box
+2024-12-14 10:16:37.923 [pool-2-thread-1] INFO  - Sign Up Hyperlink is clicked
+2024-12-14 10:17:56.175 [pool-2-thread-1] INFO  - Title is retrieved
+2024-12-14 10:17:57.225 [pool-2-thread-1] INFO  - Sign In and Login Hyperlink is clicked
+2024-12-14 10:17:59.698 [pool-2-thread-1] INFO  - User Name value has been entered in the input box
+2024-12-14 10:17:59.896 [pool-2-thread-1] INFO  - Email Address value has been entered in the input box
+2024-12-14 10:18:02.250 [pool-2-thread-1] INFO  - Sign Up Hyperlink is clicked
+2024-12-14 10:28:02.130 [pool-2-thread-1] INFO  - Title is retrieved
+2024-12-14 10:28:03.281 [pool-2-thread-1] INFO  - Sign In and Login Hyperlink is clicked
+2024-12-14 10:28:05.594 [pool-2-thread-1] INFO  - User Name value has been entered in the input box
+2024-12-14 10:28:05.806 [pool-2-thread-1] INFO  - Email Address value has been entered in the input box
+2024-12-14 10:28:08.030 [pool-2-thread-1] INFO  - Sign Up Hyperlink is clicked

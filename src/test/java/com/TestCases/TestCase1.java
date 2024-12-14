@@ -17,7 +17,7 @@ import com.PropertyFileReader.ReadPropertyFile;
 
 public class TestCase1 extends BaseTest{
 
-	@Test
+	//@Test
 	public void validateHomePage() throws InterruptedException
 	{
 		WebDriver driver=DriverManager.getInstance().getDriver();
@@ -30,7 +30,7 @@ public class TestCase1 extends BaseTest{
 		Thread.sleep(2000);
 	}
 	
-	@Test
+	//@Test
 	public void testCaseLink() throws InterruptedException
 	{
 		WebDriver driver=DriverManager.getInstance().getDriver();

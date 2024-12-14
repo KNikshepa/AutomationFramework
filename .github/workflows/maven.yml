@@ -1,0 +1,39 @@
+name: Maven Build and Test
+# Trigger on Pull and Push requests to UAT Branch
+on:
+  push:
+    branches:
+      - UAT # Trigger on push to UAT Branch
+  pull_request:
+    branches:
+      - UAT # Trigger on pull request to UAT branch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest  # Use a fresh Ubuntu environment
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v3
+        with:
+          java-version: '17'  # Set to your preferred Java version
+
+      - name: Cache Maven dependencies
+        uses: actions/cache@v3
+        with:
+          path: ~/.m2/repository  # Path to cache Maven dependencies
+          key: ${{ runner.os }}-maven-${{ hashFiles('**/pom.xml') }}
+          restore-keys: |
+            ${{ runner.os }}-maven-
+
+      - name: Build and Test with Maven
+        run: mvn clean test -P QAAutomationPractise -Dusername=${{ secrets.USERNAME }} -DemailId=${{ secrets.EMAIL_ID }}
+
+      - name: Upload Test Results
+        uses: actions/upload-artifact@v3
+        with:
+          name: test-results
+          path: target/test-*.xml  # Path to your test results
