@@ -20,7 +20,7 @@ jobs:
         uses: actions/setup-java@v3
         with:
           java-version: '21'  # Set to your preferred Java version
-          distribution: 'adoptium'  # Corrected JDK distribution (AdoptOpenJDK -> Adoptium)
+          distribution: 'adoptopenjdk'  # Use the correct distribution (adoptopenjdk)
 
       - name: Cache Maven dependencies
         uses: actions/cache@v3
