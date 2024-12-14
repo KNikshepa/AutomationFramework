@@ -1,6 +1,11 @@
 pipeline {
     agent any
 
+    environment {
+        MAVEN_HOME = 'C:/Program Files/maven/apache-maven-3.9.6'  // Correct path to your Maven installation
+        PATH = "${env.MAVEN_HOME}/bin:${env.PATH}"
+    }
+
     stages {
         stage('Checkout') {
             steps {
@@ -11,7 +16,7 @@ pipeline {
             steps {
                 script {
                     // Run Maven Build using bat for Windows
-                    bat 'mvn clean install'
+                    bat '"${MAVEN_HOME}/bin/mvn" clean install'
                 }
             }
         }
@@ -19,7 +24,7 @@ pipeline {
             steps {
                 script {
                     // Run Maven Tests using bat for Windows
-                    bat 'mvn test'
+                    bat '"${MAVEN_HOME}/bin/mvn" test'
                 }
             }
         }
