@@ -3,7 +3,8 @@
 <suite name="Suite" parallel="methods" thread-count="2">
 <test name="Test1">
 	<classes>
-		<class name="com.TestCases.TestCase1"></class>
+	  <!--<class name="com.TestCases.TestCase1"></class>-->
 	</classes>
 </test>
 </suite>
+

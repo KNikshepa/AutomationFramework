@@ -1,2 +1,4 @@
+com\TestCases\DockerTest.class
 com\TestCases\TestCase1.class
 com\BaseTest\BaseTest.class
+com\TestCases\SeleniumGridTest.class

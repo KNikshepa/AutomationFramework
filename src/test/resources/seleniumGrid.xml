@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SeleniumGridSuite" parallel="tests" thread-count="3">
+    <test name="SeleniumGridTests">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="browser" value="firefox"/>
+        <parameter name="browser" value="edge"/>
+        <classes>
+            <class name="com.TestCases.SeleniumGridTest"/>
+        </classes>
+    </test>
+</suite>

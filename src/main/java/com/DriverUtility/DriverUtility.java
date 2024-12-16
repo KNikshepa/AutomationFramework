@@ -26,14 +26,18 @@ public class DriverUtility {
 			{
 			case "edge":
 				EdgeOptions edgeOptions=new EdgeOptions();
-				edgeOptions.addArguments("start-maximized");
+				edgeOptions.addArguments("--no-sandbox");
+				edgeOptions.addArguments("--disable-dev-shm-usage");
+				edgeOptions.addArguments("--start-maximized");
 				edgeOptions.addArguments("--disable-extensions");
 				edgeOptions.addArguments("--disable-infobars");
 				DriverManager.getInstance().setDriver(new EdgeDriver(edgeOptions));
 				break;
 			case "chrome":
 				ChromeOptions chromeOptions=new ChromeOptions();
-				chromeOptions.addArguments("start-maximized");
+				chromeOptions.addArguments("--no-sandbox");
+				chromeOptions.addArguments("--disable-dev-shm-usage");
+				chromeOptions.addArguments("--start-maximized");
 				chromeOptions.addArguments("--disable-extensions");
 				chromeOptions.addArguments("--disable-infobars");
 				DriverManager.getInstance().setDriver(new ChromeDriver(chromeOptions));

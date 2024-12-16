@@ -56,4 +56,29 @@ java -jar jenkins.war
 
 http://localhost:8080
 
+docker build -t my-java-automation-image .
+
+docker images
+
+docker run -it my-java-automation-image bash
+
+Open the project location:
+
+cd C:\Users\Nikshepa\eclipse-workspace\SeleniumTestNgProject4thDec
+
+docker build -t selenium-testng-app .
+
+docker stop selenium-hub
+
+docker rm selenium-hub
+
+docker run -d -p 4444:4444 --name selenium-hub selenium/hub:latest
+
+docker ps
+
+docker run -d --net grid --name selenium-node-chrome-2 --link selenium-hub:hub selenium/node-chrome:latest
+
+docker run -d --net grid --name selenium-node-firefox-1 --link selenium-hub:hub selenium/node-firefox:latest
+
+
 
